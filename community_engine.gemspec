@@ -25,9 +25,9 @@ Gem::Specification.new do |s|
   s.files       = `git ls-files`.split("\n") rescue ''
   s.test_files  = `git ls-files -- {test}/*`.split("\n")  
   
-  s.add_dependency(%q<rails>, ["= 3.1.3"])
-  s.add_dependency(%q<rack>, ["= 1.3.5"])
-  s.add_dependency(%q<arel>, ["= 2.2.1"])
+  s.add_dependency(%q<rails>, ["~> 3.1.3"])
+  s.add_dependency(%q<rack>, ["~> 1.3.5"])
+  s.add_dependency(%q<arel>, ["~> 2.2.1"])
   s.add_dependency(%q<authlogic>, [">= 0"])
   s.add_dependency(%q<configatron>, [">= 0"])
   s.add_dependency(%q<hpricot>, [">= 0"])
